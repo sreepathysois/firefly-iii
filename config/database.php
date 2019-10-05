@@ -23,11 +23,11 @@ declare(strict_types=1);
 
 
 $databaseUrl = getenv('DATABASE_URL');
-$host        = '';
-$username    = '';
-$password    = '';
-$database    = '';
-$port        = '';
+$host        = '172.16.51.41';
+$username    = 'soisuser';
+$password    = 'Sois@123';
+$database    = 'soisdb';
+$port        = '3306';
 
 if (!(false === $databaseUrl)) {
 
